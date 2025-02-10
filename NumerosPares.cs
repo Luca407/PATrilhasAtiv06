@@ -13,9 +13,9 @@ class Program
         }
         else
         {
-            for (int i = x; i >= 0; i--)
+            for (int i = x; i >= 0; i -= 2)
             {
-                Console.Write(i +" ");
+            	Console.Write(i + " ");
             }
         }
         
