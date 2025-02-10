@@ -4,7 +4,7 @@ class Program
 {
   public static void Main(string[] args)
   {
-    Console.WriteLine("Digite um número: ");
+    Console.WriteLine("Digite uma palavra: ");
     string palavra = Console.ReadLine();
     Console.WriteLine("\nLetras da Palavra");
 
