@@ -14,5 +14,6 @@ class Program
 
         double media = soma / numeros.Length;
         Console.WriteLine("Média dos valores: " + media);
+        Console.ReadKey();
     }
 }
