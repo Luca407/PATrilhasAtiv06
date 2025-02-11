@@ -28,7 +28,7 @@ class Program
             switch (opcao)
             {
                 case 1:
-                    if (contador < 40)
+                    if (contador <= 40)
                     {
                         Console.Write("Digite o nome da mercadoria: ");
                         mercadorias[contador].Nome = Console.ReadLine();
